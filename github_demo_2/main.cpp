@@ -1,6 +1,7 @@
 // Your First C++ Program
 
 #include <iostream>
+#include <windows.h>
 
 void jakobCounter()
 {
@@ -10,7 +11,6 @@ void jakobCounter()
 
 void print_nums() 
 {
-
     for (int i = 19; i <= 30; i++)
     {
         std::cout << i << std::endl;
@@ -24,6 +24,12 @@ int main() {
     jakobCounter();
     print_nums();
     
+    jakobCounter();  
+    for (byte i = 10; i < 21; i++)
+    {
+        printf_s("%d\n",i);
+    }
+    print_nums();
     return 0;
 }
 
