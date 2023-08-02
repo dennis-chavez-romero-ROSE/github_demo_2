@@ -27,7 +27,8 @@ void alexCounter()
     }
 }
 
-int main() {
+int main() 
+{
     Sleep(100);
     std::cout << "Hello World!\n"; // this is a merge conflict
     std::cout << "Hello Metaverse!\n"; 
