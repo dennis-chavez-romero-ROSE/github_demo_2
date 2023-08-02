@@ -6,30 +6,35 @@
 void jakobCounter()
 {
     for (int i = 0; i < 11; i++)
-        std::cout << "\nJakob: " << i;
+        std::cout << "j " << i << std::endl;
 }
 
 void print_nums() 
 {
-    for (int i = 19; i <= 30; i++)
+    for (int i = 21; i <= 30; i++)
     {
-        std::cout << i << std::endl;
+        std::cout << "d " << i << std::endl;
+    }
+}
+
+void alexCounter()
+{
+    for (byte i = 11; i < 21; i++)
+    {
+        printf("a %d\n", i);
     }
 }
 
 int main() {
-    std::cout << "Hello World!"; // this is a merge conflict
-    std::cout << "Hello Metaverse!"; 
-    std::cout << "this is an insane change"; 
+    std::cout << "Hello World!\n"; // this is a merge conflict
+    std::cout << "Hello Metaverse!\n"; 
+    std::cout << "this is an insane change\n"; 
     jakobCounter();
+    alexCounter();
     print_nums();
-    
-    jakobCounter();  
-    for (byte i = 10; i < 21; i++)
-    {
-        printf_s("%d\n",i);
-    }
-    print_nums();
+
+    while (TRUE);
+
     return 0;
 }
 
