@@ -6,7 +6,9 @@
 void jakobCounter()
 {
     for (int i = 0; i < 11; i++)
+    {
         std::cout << "j " << i << std::endl;
+    }
 }
 
 void print_nums() 
@@ -26,6 +28,7 @@ void alexCounter()
 }
 
 int main() {
+    Sleep(100);
     std::cout << "Hello World!\n"; // this is a merge conflict
     std::cout << "Hello Metaverse!\n"; 
     std::cout << "this is an insane change\n"; 
@@ -33,6 +36,11 @@ int main() {
     alexCounter();
     print_nums();
 
+    //for (int i = 0; i < 60; i++)
+    //    printf("i\n");
+    ////std::cout << i << std::endl;
+
+    //printf("i: %d\n", 60);
     while (TRUE);
 
     return 0;
